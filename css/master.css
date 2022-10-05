@@ -74,7 +74,7 @@ body{
 
 }
 
-@media ((max-width: 992px)) {
+@media (max-width: 992px) {
      #search{
     display: none !important;
     } 
@@ -96,7 +96,7 @@ body{
     }
 }
 
-@media ((min-width: 992px)) {
+@media (min-width: 992px) {
     .navbar-light .navbar-nav .profile{
         background-color: #27292a;
         padding: 8px 10px 8px 20px;
@@ -206,6 +206,7 @@ position: relative;
     letter-spacing: 0.5px;
     text-decoration: none;
     transition: all .3s;
+    display: inline-block;
 }
 
 @media (max-width:767px) {
